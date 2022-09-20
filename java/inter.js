@@ -1,2 +1,3 @@
-var nomeValeu = document.getElementsByClassName(`.usuario`);
-alert(`Seja Bem-Vindo `+nomeValeu);
+function bemvindo() {
+    var nome = document.getElementById('usuario')
+} res.innerHTML = `Seja Bem-Vindo ${nome}`
