@@ -44,7 +44,7 @@ input.senha {
     background-image: url(../imagens/icone-cadeado.png);
 }
 
-input.submit {
+input#submit {
     color: #fff;
     background-color: #0019f7;
     border: 2px solid #404e8ad5;

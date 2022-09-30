@@ -1,3 +1,4 @@
 function bemvindo() {
-    var nome = document.getElementById('usuario')
-} res.innerHTML = `Seja Bem-Vindo ${nome}`
+    var loc = document.getElementById('submit')
+    var pren = document.getElementById('senha')
+}
