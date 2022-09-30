@@ -1,4 +1,3 @@
-function bemvindo() {
-    var loc = document.getElementById('submit')
-    var pren = document.getElementById('senha')
+function enviar(){
+    window.location.href = "post.html"
 }

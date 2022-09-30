@@ -36,11 +36,11 @@ input {
     background-position: 10px;
 }
 
-input.usuario {
+input#usuario {
     background-image: url(../imagens/icone-usuario.png);
 }
 
-input.senha {
+input#senha {
     background-image: url(../imagens/icone-cadeado.png);
 }
 
@@ -57,7 +57,7 @@ input#submit {
     background: linear-gradient(to bottom, #00fafa, #0094f6);
 }
 
-input.cancelar {
+input#cancelar {
     color: #fff;
     background-color: #f70021;
     border: 2px solid #962828d5;

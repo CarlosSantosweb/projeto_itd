@@ -10,20 +10,20 @@
 <body>
     <div id="container">
         <img src="./imagens/perfil.png" alt="perfil">
-        <form method="get" action="./post.html">
+        <form>
             <div>
-                <input class="usuario" type="text" name="usuario"
-                placeholder="Usuário:" id="usuario">
+                <input id="usuario" type="text" name="usuario"
+                placeholder="Usuário:" >
             </div>
             <div>
-                <input class="senha" type="password" name="senha" id="senha"
+                <input id="senha" type="password" name="senha" 
                 placeholder="Digite sua senha:">
             </div>
             <div>
-                <a href="./post.html"><input id="submit" type="submit" value="Enviar"></a>
+                <input id="submit" type="submit" value="Acessar" onclick="enviar()">
             </div>
             <div>
-                <input class="cancelar" type="submit" value="Cancelar">
+                <input id="cancelar" type="submit" value="Cancelar">
             </div>
         </form>
 
