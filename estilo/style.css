@@ -5,6 +5,13 @@ body {
     background: #643d87 url(../imagens/fundo.jpg) no-repeat top center;
 }
 
+#bemvindo {
+    padding-top: 10%;
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 #container {
     width: 400px;
     height: 300px;
